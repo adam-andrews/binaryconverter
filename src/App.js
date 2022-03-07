@@ -17,7 +17,7 @@ function App() {
           </code>
         </p>
         <button onClick={()=> setNumber(convert(binary.split("")))}>
-          Conver binary to decimal
+          Conver binary to decimal 
         </button>
       </header>
     </div>

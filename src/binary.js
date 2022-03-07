@@ -2,10 +2,10 @@ export function convert(arr) {
     const rev = arr.reverse()
     let value = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (rev[i] === 1){ 
+        if (rev[i] === "1"){ 
             value += 2**i
         }
-        else if (rev[i] !== 0) {
+        else if (rev[i] !== "0") {
 
         value = "ERROR"
         break
